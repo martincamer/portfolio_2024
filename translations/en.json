@@ -1,0 +1,20 @@
+{
+	"home": {
+		"brief": "Hi, my name is Martín, I'm Frontend Developer with Full-Stack knowledge."
+	},
+	"about": {
+		"title": "About me",
+		"profession": "Frontend Developer",
+		"imageAlt": "Picture of Martín",
+		"firstParagraph": "I'm passionate about everything related to technology and innovation. I've worked using agile methodologies such as Scrum or Kanban in different work environments.",
+		"secondParagraph": "I'm currently learning SQL. Also I'm taking a course of Data Structures and Algorithms with JavaScript."
+	},
+	"experience": {
+		"title": "Experience"
+	},
+	"projects": {
+		"title": "Projects",
+		"brief": "Some of my most important or recent projects that I have been working on.",
+		"cta": "Read more"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"home": {
+		"brief": "Hola! Soy Martín, un Desarrollador Frontend con conocimientos full-stack."
+	},
+	"about": {
+		"title": "Sobre mi",
+		"profession": "Desarrollador Frontend",
+		"imageAlt": "Foto de Martin",
+		"firstParagraph": "Me apasiona todo sobre sobre tecnología e innovación. He trabajado utilizando metodologías ágiles en distintos ambientes de trabajo.",
+		"secondParagraph": "Actualmente estoy aprendiendo Java y su framework Spring Boot. Además estoy tomando un cursos de Estructuras de Datos y Algoritmos."
+	},
+	"experience": {
+		"title": "Experiencia"
+	},
+	"projects": {
+		"title": "Proyectos",
+		"brief": "Algunos de los proyectos más importantes que hice o en los que estuve trabajando.",
+		"cta": "Leer más"
+	}
+}
