@@ -8,8 +8,8 @@ export default function robots(): MetadataRoute.Robots {
 			disallow: '/private/',
 		},
 		sitemap: [
-			'https://martincamer.vercel.app/es/sitemap.xml',
-			'https://martincamer.vercel.app/en/sitemap.xml',
+			'https://portfolio-2024-ten.vercel.app/es/sitemap.xml',
+			'https://portfolio-2024-ten.vercel.app/en/sitemap.xml',
 		],
 	};
 }
