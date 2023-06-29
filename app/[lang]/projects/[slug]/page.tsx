@@ -1,9 +1,10 @@
 import { projects } from '@/constants/projects';
 import { Header } from './header';
 import { notFound } from 'next/navigation';
-import Image from 'next/image';
 import { Locale } from '@/i18n-config';
 import { getTranslation } from '@/get-translation';
+import Image from 'next/image';
+
 type PropsParams = {
 	params: {
 		slug: string;
