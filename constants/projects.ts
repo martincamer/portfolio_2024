@@ -2,8 +2,15 @@ import { IProject } from '@/interfaces/projects';
 import Citas_React from '../public/images/Citas_React.png';
 import Control_Gastos from '../public/images/Control_Gastos.png';
 import Cotizador_Criptos from '../public/images/Cotizador_Criptos.png';
-import Tesla_Image from '../public/images/Tesla_Image.png';
 import CRM_Clientes from '../public/images/CRM_Clientes.png';
+import Clima_React from '../public/images/Clima-React.png';
+import Bebidas_app from '../public/images/Bebidas_app.png';
+import Noticias_app from '../public/images/Noticias_app.png';
+import Agencia_Digital from '../public/images/Agencia Digital.png';
+import NFT_Website from '../public/images/NtfAgencia.png';
+import Movie_App from '../public/images/Moviex.png';
+import Nike_App from '../public/images/Nike.png';
+import Travel_App from '../public/images/Travigo.png';
 
 interface ProjectsContent {
 	en: IProject[];
@@ -11,111 +18,7 @@ interface ProjectsContent {
 }
 
 export const projects: ProjectsContent = {
-	en: [
-		{
-			slug: 'dolar',
-			title: 'CS Store',
-			brief:
-				'The project is based on the sale of CSGO items. I opted to use the T3 Stack focusing on simplicity, modularity and type-safe development.',
-			image: Citas_React,
-			description:
-				"The idea of developing this store was driven to learn about several technologies that I didn't know until the moment of making the application. I used the game as a niche to avoid making a typical clothing store, besides being one of my favorite games.",
-			stack: [
-				'NextJS',
-				'Next Auth',
-				'Zustand',
-				'React Table',
-				'React Query',
-				'TailwindCSS',
-				'Radix UI',
-				'AWS S3',
-				'Zod',
-				'TypeScript',
-				'PrismaORM',
-				'tRPC',
-				'CockRoachDB',
-			],
-			url: 'https://csgostore.vercel.app/',
-			repository: 'https://github.com/Santipac/CS-Store',
-		},
-		{
-			slug: 'twitter_clone',
-			title: 'Twitter UI',
-			brief:
-				'Twitter UI Clone with minimal functionalities such as follow users, create tweets and more.',
-			image: Control_Gastos,
-			description:
-				'I made this project in order to learn more about technologies such as Radix UI, tRPC, react-query, and others. I liked the idea of making a Twitter Clone because I could understand how these technologies work by making minimal functionalities.',
-			stack: [
-				'NextJS',
-				'tRPC',
-				'React Query',
-				'TailwindCSS',
-				'Zod',
-				'TypeScript',
-				'Radix UI',
-				'Next Auth',
-				'MySQL',
-				'PrismaORM',
-				'Stripe',
-			],
-			url: 'https://twitter-clone-santipac.vercel.app/',
-			repository: 'https://github.com/Santipac/twitter-clone',
-		},
-		{
-			slug: 'kanban_board',
-			title: 'Kanban Board',
-			brief: 'To-Do application with Drag and Drop.',
-			description: '',
-			image: Cotizador_Criptos,
-			stack: [
-				'ReactJS',
-				'ReduxJS',
-				'ChakraUI',
-				'Formik',
-				'Yup',
-				'React Router Dom',
-				'Firebase',
-				'TypeScript',
-				'Vite',
-			],
-			url: 'https://kanbanclone.vercel.app/',
-			repository: 'https://github.com/Santipac/KanbanBoard',
-		},
-		{
-			slug: 'dolarizapp',
-			title: 'Dolarizapp',
-			brief: 'An App to convert ARS to USD',
-			image: CRM_Clientes,
-			description:
-				'An app where you will find different quotes with information about them. Designed only for Argentines, those who suffer every day by the devaluation of our currency. You can insert the amount you want, seeing its value in dollars with the different quotes. Some quotes have additional information about them.',
-			stack: [
-				'React js',
-				'Typescript',
-				'TailwindCSS',
-				'Framer Motion',
-				'React Query',
-				'Storybook',
-				'Vite js',
-				'pnpm',
-				'React Router Dom',
-				'Figma',
-			],
-			url: 'https://dolarizapp.vercel.app/',
-			repository: 'https://github.com/Santipac/Dolarizapp',
-		},
-		{
-			slug: 'tesla',
-			title: 'Tesla Landing',
-			brief: 'A Tesla UI clone with Astro JS',
-			image: Tesla_Image,
-			description:
-				'I did this project to refresh my knowledge in basic web development with HTML CSS and Javascript but with productivity enhancing technologies such as Tailwind for styles and Astro for the rest.',
-			stack: ['HTML', 'CSS', 'TailwindCSS', 'JavaScript', 'Astro JS'],
-			url: 'https://tesla-landing-ui.netlify.app/',
-			repository: 'https://github.com/Santipac/tesla-landing',
-		},
-	],
+	en: [],
 	es: [
 		{
 			slug: 'citas-react',
@@ -135,7 +38,7 @@ export const projects: ProjectsContent = {
 				'Javascript',
 				'Context',
 			],
-			url: 'https://dancing-sundae-1ac481.netlify.app',
+			url: 'https://listado-pacientes.netlify.app/',
 			repository: 'https://github.com/martincamer/citas_react',
 		},
 		{
@@ -154,7 +57,7 @@ export const projects: ProjectsContent = {
 				'Css',
 				'Javascript',
 			],
-			url: 'https://649de432a05bab2db2b0ccfc--fastidious-kringle-00ed60.netlify.app/',
+			url: 'https://control-gastos-v3.netlify.app/',
 			repository: 'https://github.com/martincamer/Control_Gastos',
 		},
 		{
@@ -165,19 +68,126 @@ export const projects: ProjectsContent = {
 			description: '',
 			image: Cotizador_Criptos,
 			stack: ['ReactJS', 'Api', 'Css', 'Styled Components'],
-			url: 'https://649df0c9708a7534d10ee738--rainbow-creponne-973906.netlify.app/',
+			url: 'https://cotizador-app-v3.netlify.app/',
 			repository: 'https://github.com/martincamer/cripto_api',
 		},
 		{
 			slug: 'crm-clientes',
 			title: 'CRM Clientes',
-			brief: 'Una App sobre clientes.',
+			brief: 'Una App sobre clientes, proyectos, etc.',
 			image: CRM_Clientes,
 			description:
 				'Una app donde fue creada para tener una lista de clientes con información de las mismas Pensada unicamente para los Empresarios',
 			stack: ['React js', 'Json-Server', 'Html', 'Css', 'Talwind Css', 'Api'],
-			url: 'https://tranquil-sundae-2891f1.netlify.app/',
+			url: 'https://crm-clientes-v3.netlify.app/',
 			repository: 'https://github.com/martincamer/crm_clientes',
+		},
+		{
+			slug: 'clima-app',
+			title: 'Aplicacion del Clima',
+			brief:
+				'Una Aplicación para personas que quieren saber sobre el clima, la aplicacion fue realizada con una API del clima',
+			image: Clima_React,
+			description:
+				'Esta aplicación fue realizada para saber el clima de cualquier ciudad escogida',
+			stack: [
+				'React js',
+				'Styled Components',
+				'Html',
+				'Css',
+				'Talwind Css',
+				'Api',
+				'Context',
+				'Hooks',
+			],
+			url: 'https://clima-app-v3.vercel.app/',
+			repository: 'https://github.com/martincamer/clima-app',
+		},
+		{
+			slug: 'bebidas-app',
+			title: 'Aplicacion Sobre Bebidas',
+			brief:
+				'Una Aplicación para personas que quieren saber sobre bebidas, tragos, etc. Fue realizada con una API de bebidas',
+			image: Bebidas_app,
+			description:
+				'Esta aplicación fue realizada para cualquier persona que quiera saber sobre bebidas, tragos y preparacion de ellos',
+			stack: ['React js', 'Bootstrap React', 'Html', 'Css', 'Context', 'Hooks'],
+			url: 'https://bebidas-app-v3.vercel.app/',
+			repository: 'https://github.com/martincamer/bebidas-app',
+		},
+		{
+			slug: 'noticias-app',
+			title: 'Aplicacion Sobre Noticias',
+			brief:
+				'Una Aplicación para personas que quieren saber sobre noticias. Fue realizada con una API de bebidas',
+			image: Noticias_app,
+			description:
+				'Esta aplicación fue realizada para cualquier persona que quiera saber sobre noticias',
+			stack: [
+				'React js',
+				'Material UI',
+				'Html',
+				'Css',
+				'Context',
+				'Hooks',
+				'Styled Components',
+			],
+			url: 'https://noticias-app-v3.vercel.app/',
+			repository: 'https://github.com/martincamer/noticias-app',
+		},
+		{
+			slug: 'agencia-app',
+			title: 'Agency-Creative',
+			brief:
+				'Una pagina web interactiva sobre una agencia creativa de desarrollo web y diseño',
+			image: Agencia_Digital,
+			description: 'Esta aplicación fue realizada para una agencia creativa',
+			stack: ['Html', 'Css', 'Sass', 'Javascript'],
+			url: 'https://agencysite2023.netlify.app/',
+			repository: 'https://github.com/martincamer/Agencia-Digital',
+		},
+		{
+			slug: 'NFTAgency-app',
+			title: 'Agencia sobre NFTS',
+			brief: 'Una pagina web interactiva sobre una agencia de venta de NFTS',
+			image: NFT_Website,
+			description: 'Esta aplicación fue realizada para una agencia de NFTS',
+			stack: ['Html', 'Css', 'Sass'],
+			url: 'https://ntfsite.netlify.app/',
+			repository: 'https://github.com/martincamer/NFT-Proyecto',
+		},
+		{
+			slug: 'movie-app',
+			title: 'Agencia sobre Peliculas y Series',
+			brief:
+				'Una pagina realizada consumiendo una api mediante javascript, proyecto donde podes buscar series y peliculas.',
+			image: Movie_App,
+			description:
+				'Esta aplicación fue realizada consumiendo una api de peliculas y series',
+			stack: ['Html', 'Css', 'Sass', 'Javascript', 'Api'],
+			url: 'https://movixsite.netlify.app/',
+			repository: 'https://github.com/martincamer/Moviex-Movies',
+		},
+		{
+			slug: 'nike-store-app',
+			title: 'Store Nike ShoesApp',
+			brief: 'Una pagina realizada con react sobre zapatillas nike populares.',
+			image: Nike_App,
+			description: 'Esta aplicacion es sobre zapatillas nike',
+			stack: ['Html', 'Css', 'React', 'Javascript', 'Hooks'],
+			url: 'https://nikesitereact.netlify.app/',
+			repository: 'https://github.com/martincamer/Nike-Shoes',
+		},
+		{
+			slug: 'travigo-app',
+			title: 'Travigo App',
+			brief:
+				'Una pagina realizada para una agencia sobre lugares, para viajar, etc.',
+			image: Travel_App,
+			description: 'Esta aplicacion es lugares para viajar',
+			stack: ['Html', 'Css', 'React', 'Javascript', 'Hooks'],
+			url: 'https://travelagencyreact.netlify.app/',
+			repository: 'https://github.com/martincamer/TravelAgency',
 		},
 	],
 };
