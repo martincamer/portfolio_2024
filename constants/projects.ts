@@ -18,7 +18,29 @@ interface ProjectsContent {
 }
 
 export const projects: ProjectsContent = {
-	en: [],
+	en: [
+		{
+			slug: 'citas-react',
+			title: 'Mascotas Citas',
+			brief:
+				'Proyecto basado en citas para mascotas, cualquier problema que tenga la mascota podra enviar un formulario para solicitar una fecha',
+			image: Citas_React,
+			description:
+				'La idea fue realizar un proyecto para dominar el uso de props en react. ',
+			stack: [
+				'Html',
+				'Css',
+				'Tailwind Css',
+				'React',
+				'Local Storage',
+				'Props',
+				'Javascript',
+				'Context',
+			],
+			url: 'https://listado-pacientes.netlify.app/',
+			repository: 'https://github.com/martincamer/citas_react',
+		},
+	],
 	es: [
 		{
 			slug: 'citas-react',
